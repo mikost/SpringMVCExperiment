@@ -10,6 +10,6 @@ public class WelcomeController {
 
     @RequestMapping({"/", "/index"})
     public String showHomePage(Map<String, Object> model) {
-        return "myView";
+        return "welcome";
     }
 }
