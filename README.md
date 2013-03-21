@@ -1,4 +1,5 @@
-SpringWebAppEclipseMavenTemplate
-================================
+SpringMvcExperiment
+===================
 
-A starting point for developing a Spring Web app with Eclipse with STS (SpringSource Tool Suite) and m2e-wtp (Maven Integration for Eclipse WTP)
+Just a project for playing with and learning Spring MVC.
+
