@@ -1,4 +1,4 @@
-package MY.TOP.PACKAGE;
+package name.mikkoostlund.spring_mvc_experiment;
 
 import java.util.Map;
 
