@@ -11,5 +11,6 @@
 </head>
 <body>
   <p>Welcome to my Spring MVC web app!</p>
+  <c:out value="<p>JSTL works!<p>"></c:out>
 </body>
 </html>
