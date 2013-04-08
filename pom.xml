@@ -5,12 +5,13 @@
   <version>0.0.1-SNAPSHOT</version>
   <properties>
   	<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+  	<spring.version>3.0.0.RELEASE</spring.version>
   </properties>
   <dependencies>
   	<dependency>
   		<groupId>org.springframework</groupId>
   		<artifactId>spring-webmvc</artifactId>
-  		<version>3.2.2.RELEASE</version>
+  		<version>${spring.version}</version>
   	</dependency>
     <dependency>
       <groupId>org.glassfish.web</groupId>
@@ -28,6 +29,21 @@
     	<artifactId>javax.servlet-api</artifactId>
     	<version>3.0.1</version>
     	<scope>provided</scope>
+    </dependency>
+    <dependency>
+    	<groupId>org.springframework.security</groupId>
+    	<artifactId>spring-security-config</artifactId>
+    	<version>${spring.version}</version>
+    </dependency>
+    <dependency>
+    	<groupId>org.springframework.security</groupId>
+    	<artifactId>spring-security-web</artifactId>
+    	<version>${spring.version}</version>
+    </dependency>
+    <dependency>
+    	<groupId>org.springframework.security</groupId>
+    	<artifactId>spring-security-core</artifactId>
+    	<version>${spring.version}</version>
     </dependency>
   </dependencies>
   <build>
