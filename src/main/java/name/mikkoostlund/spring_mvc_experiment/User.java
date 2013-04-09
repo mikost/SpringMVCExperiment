@@ -4,7 +4,7 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 
 public class User {
-	static Log log = LogFactory.getLog(LoginController.class.getName());
+	static Log log = LogFactory.getLog(User.class.getName());
 	private String _name;
 	private String password;
 	private final String _origName;
