@@ -16,10 +16,20 @@ public class LoginController {
 		return "login";
 	}
 
-	@RequestMapping(value="/loginfailure", method=RequestMethod.GET)
+    @RequestMapping("/login_success")
+    public String showLoginSuccess(ModelMap model) {
+        return "login_success";
+    }
+
+
+	@RequestMapping(value="/login_failure", method=RequestMethod.GET)
 	public String showLoginFailure(ModelMap model) {
 		model.addAttribute("error", "true");
 		return "login";
 	}
 
+	@RequestMapping(value="/logout", method=RequestMethod.GET)
+	public String logout() {
+		return "redirect:/index";
+	}
 }

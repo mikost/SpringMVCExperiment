@@ -12,7 +12,7 @@ public class WelcomeController {
 
     @RequestMapping({"/", "/index"})
     public String showHomePage(ModelMap model) {
-        return "welcome";
+        return "index";
     }
 
     @ModelAttribute("user")
